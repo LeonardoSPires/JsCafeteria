@@ -20,6 +20,7 @@
 
 body {
     background-color: var(--bg);
+    padding: 0 3rem ;
 }
 
 section {
@@ -69,13 +70,15 @@ section {
 }
 
 .icons img {
+    position: relative;
+    left: 100%;
     margin: .5rem;
-    width: 1rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .icons img:hover {
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .btn {
@@ -318,3 +321,4 @@ section {
     width: 1.8rem;
     height: 1.8rem;
 }
+
